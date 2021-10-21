@@ -80,7 +80,7 @@ Para seguir los pasos listados continuación se debe tener abierta una consola c
 1. Clonar el código fuente:
 
 ```sh
-$ git clone --recurse-submodules --remote-submodules https://github.com/djimenezjerez/correspondencia.git
+$ git clone --recurse-submodules --remote-submodules https://github.com/deymar31m/sistema-correspondencia.git
 ```
 
 2. Establecer las variables de entorno, renombrar **.env.example** a **.env** y edita los datos de acuerdo a los datos extraidos del servidor donde funcionará el sistema:
@@ -177,7 +177,7 @@ Los pasos a seguir para levantar los servicios necesarios son los siguientes:
 1. Clonar el código fuente:
 
 ```sh
-$ git clone --recurse-submodules --remote-submodules https://github.com/djimenezjerez/correspondencia.git
+$ git clone --recurse-submodules --remote-submodules https://github.com/deymar31m/sistema-correspondencia.git
 ```
 
 2. Editar el archivo de variables de entorno **docker/.env.example** y de acuerdo a ello modificar el dominio en el archivo **config/sanctum.php**, dentro de la variable *stateful*, reemplazar *localhost* por el dominio especificado para el servidor Nginx o Apache.
