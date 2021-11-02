@@ -15,6 +15,7 @@
           class="text-center white--text"
         >
           <v-row
+           
             justify="center"
             no-gutters
           >

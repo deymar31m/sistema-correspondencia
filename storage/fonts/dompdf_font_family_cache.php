@@ -78,9 +78,9 @@
     'normal' => $rootDir . '/lib/fonts/DejaVuSerif',
   ),
   'arial' => array(
-    'normal' => $fontDir . '/arial_normal_08f09e2808a3424021e41c433cb63fde',
+    'normal' => $fontDir . '/arial_normal_d2e89746c69591e4af7f019af0ec5f4b',
   ),
   'elegance' => array(
-    'normal' => $fontDir . '/elegance_normal_08f09e2808a3424021e41c433cb63fde',
+    'normal' => $fontDir . '/elegance_normal_d2e89746c69591e4af7f019af0ec5f4b',
   ),
 ) ?>

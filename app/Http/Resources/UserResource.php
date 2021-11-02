@@ -24,6 +24,7 @@ class UserResource extends JsonResource
             'address' => $this->address,
             'phone' => $this->phone,
             'area_id' => $this->area_id,
+            'area' => $this->area->name,
             'role' => $this->roles()->first()->name,
             'is_active' => $this->deleted_at === NULL ? true : false,
             'created_at' => $this->created_at,

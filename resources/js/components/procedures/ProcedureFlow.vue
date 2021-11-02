@@ -104,7 +104,7 @@ export default {
   computed: {
     filteredAreas() {
       const area = this.areas.find(o => o.id == this.procedure.area_id)
-      if (area.group > 1) {
+      if (area.group > 1 && this.$store.getters.user.area.toUpperCase() != 'Secretaría Hacienda'.toUpperCase()) {
         return this.areas.filter(o => o.group == area.group && o.id != this.procedure.area_id)
       } else {
         return this.areas.filter(o => o.group != 0 && o.id != this.procedure.area_id)
